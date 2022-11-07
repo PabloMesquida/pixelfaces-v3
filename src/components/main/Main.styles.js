@@ -19,11 +19,12 @@ export const MainAnimation = styled.main`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(38, 26, 12);
+
   background: radial-gradient(
-    circle,
-    rgba(38, 26, 12, 1) 0%,
-    rgba(18, 11, 5, 1) 100%
+    circle at 50% 30%,
+    rgba(0, 29, 61, 0.5) 0%,
+    rgba(0, 18, 40, 0.5) 20%,
+    rgba(0, 8, 20, 1) 100%
   );
 `;
 

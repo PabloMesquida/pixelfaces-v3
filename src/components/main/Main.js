@@ -75,7 +75,7 @@ const Main = () => {
         <Lights />
         <EarthSistem isMobile={IS_MOBILE} />
         <EffectComposer>
-          <Pixelation granularity={8} />
+          <Pixelation granularity={6} />
           <Vignette darkness={0.8} />
         </EffectComposer>
       </Canvas>
