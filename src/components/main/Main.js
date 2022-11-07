@@ -29,7 +29,6 @@ const Main = () => {
     "​🍎",
     "​🍕",
     "​🥟",
-    "​🍺",
     "​🍦",
     "​⭐",
     "​🌈",
@@ -61,25 +60,22 @@ const Main = () => {
         >
           <DeviceOrientationControls />
           <Stars speed={0} depth={0} count={1000} saturation={50} factor={7} />
-          <EffectComposer>
-            <Vignette darkness={0.8} />
-          </EffectComposer>
         </Canvas>
       )}
-      <Canvas
-        style={{ position: "relative", zIndex: 1 }}
-        className="webgl"
-        dpr={[1, 2]}
-        camera={{ fov: 50, position: [0, 0, 10], near: 0.01, far: 1000 }}
-      >
-        <Lights />
-        <EarthSistem isMobile={IS_MOBILE} />
-        <EffectComposer>
-          <Pixelation granularity={6} />
-          <Vignette darkness={0.8} />
-        </EffectComposer>
-      </Canvas>
+
       <MainConteiner>
+        <Canvas
+          style={{ position: "abosulote", zIndex: 1 }}
+          className="webgl"
+          dpr={[1, 2]}
+          camera={{ fov: 50, position: [0, 0, 10], near: 0.01, far: 1000 }}
+        >
+          <Lights />
+          <EarthSistem isMobile={IS_MOBILE} />
+          <EffectComposer>
+            <Pixelation granularity={6} />
+          </EffectComposer>
+        </Canvas>
         <H1>
           <AH1 href="#About">Pixel Faces</AH1>
         </H1>

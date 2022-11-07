@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
 export const EmojiContainer = styled.div`
-  margin-top: 12px;
+  position: absolute;
+  top: 29rem;
+  @media (min-width: 640px) {
+    top: 32rem;
+  }
 `;
