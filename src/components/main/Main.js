@@ -8,46 +8,10 @@ import {
 } from "@react-three/postprocessing";
 import Lights from "./Lights.js";
 import EarthSistem from "./EarthSistem.js";
-import RandomEmoji from "./RandomEmoji.js";
 import { MainAnimation, MainConteiner, H1, AH1, Txt } from "./Main.styles.js";
 
 const Main = () => {
   const IS_MOBILE = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
-  const arrayEmojis = [
-    "🙂",
-    "​🧡",
-    "🪐",
-    "🔥",
-    "👾",
-    "​👽",
-    "​✌️",
-    "​🤘",
-    "​✊",
-    "​🌱",
-    "​🍊",
-    "​🍎",
-    "​🍕",
-    "​🥟",
-    "​🍦",
-    "​⭐",
-    "​🌈",
-    "​⚡",
-    "​💡",
-    "🕹️",
-    "🛸",
-    "🚀",
-  ];
-
-  const shuffleArray = (array) => {
-    for (let i = array.length - 1; i > 0; i--) {
-      let j = Math.floor(Math.random() * (i + 1));
-      let temp = array[i];
-      array[i] = array[j];
-      array[j] = temp;
-    }
-    return array;
-  };
 
   return (
     <MainAnimation>
@@ -65,7 +29,7 @@ const Main = () => {
 
       <MainConteiner>
         <Canvas
-          style={{ position: "abosulote", zIndex: 1 }}
+          style={{ position: "absolute", zIndex: 1 }}
           className="webgl"
           dpr={[1, 2]}
           camera={{ fov: 50, position: [0, 0, 10], near: 0.01, far: 1000 }}
@@ -79,7 +43,6 @@ const Main = () => {
         <H1>
           <AH1 href="#About">Pixel Faces</AH1>
         </H1>
-        <RandomEmoji arrayE={shuffleArray(arrayEmojis)} />
       </MainConteiner>
     </MainAnimation>
   );

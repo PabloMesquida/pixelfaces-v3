@@ -27,15 +27,12 @@ export const MainConteiner = styled.div`
 
 export const H1 = styled.h1`
   position: absolute;
-  top: 22rem;
+  top: 26rem;
   line-height: 4rem;
   letter-spacing: 0.1rem;
   text-shadow: 0px 0px 8px rgba(255, 162, 0, 0.6);
   text-align: center;
   font-weight: lighter;
-  @media (min-width: 900px) {
-    top: 25rem;
-  }
 `;
 
 export const AH1 = styled.a`
@@ -56,11 +53,4 @@ export const AH1 = styled.a`
     text-decoration: none;
     color: ${({ theme }) => theme.colors.colorFour};
   }
-`;
-
-export const Txt = styled.span`
-  font-size: 1rem;
-  text-align: center;
-  line-height: 2rem;
-  background-color: transparent;
 `;
