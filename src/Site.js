@@ -1,8 +1,19 @@
 import React from "react";
-import { SiteContainer } from "./Site.styles.js";
+import {
+  SiteContainer,
+  PersonalCont,
+  InfoCont,
+  ContactCont,
+} from "./Site.styles.js";
 
 const Site = () => {
-  return <SiteContainer>Site</SiteContainer>;
+  return (
+    <SiteContainer>
+      <PersonalCont />
+      <InfoCont />
+      <ContactCont />
+    </SiteContainer>
+  );
 };
 
 export default Site;

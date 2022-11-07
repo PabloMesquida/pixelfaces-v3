@@ -32,7 +32,8 @@ export const H1 = styled.h1`
   letter-spacing: 0.1rem;
   text-shadow: 0px 0px 8px rgba(255, 162, 0, 0.6);
   text-align: center;
-  @media (min-width: 640px) {
+  font-weight: lighter;
+  @media (min-width: 900px) {
     top: 25rem;
   }
 `;
