@@ -1,14 +1,10 @@
 import React from "react";
 import { Canvas } from "@react-three/fiber";
 import { DeviceOrientationControls, Stars } from "@react-three/drei";
-import {
-  EffectComposer,
-  Pixelation,
-  Vignette,
-} from "@react-three/postprocessing";
+import { EffectComposer, Pixelation } from "@react-three/postprocessing";
 import Lights from "./Lights.js";
 import EarthSistem from "./EarthSistem.js";
-import { MainAnimation, MainConteiner, H1, AH1, Txt } from "./Main.styles.js";
+import { MainAnimation, MainConteiner, H1, AH1 } from "./Main.styles.js";
 
 const Main = () => {
   const IS_MOBILE = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
@@ -40,7 +36,7 @@ const Main = () => {
             <Pixelation granularity={6} />
           </EffectComposer>
         </Canvas>
-        <H1>
+        <H1 top={IS_MOBILE ? "320px" : "420px"}>
           <AH1 href="#About">Pixel Faces</AH1>
         </H1>
       </MainConteiner>

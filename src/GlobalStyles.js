@@ -7,7 +7,6 @@ html {
   font-family: sans-serif;
   line-height: 1.6;
   scroll-behavior: smooth;
-  
 }
 
 *,
@@ -21,7 +20,6 @@ body {
   height:100%;
   margin: 0;
   padding: 0;
-
   background-color: ${({ theme }) => theme.colors.colorOne};
   background: rgb(0,29,61);
   background: -moz-radial-gradient(circle at top, rgba(0,29,61,1) 0%, rgba(0,18,40,1) 20%, rgba(0,8,20,1) 100%);
@@ -42,7 +40,6 @@ body {
 
 h1{
   font-family: ${({ theme }) => theme.fonts.logoFont}, sans-serif;
-  font-size: 2rem;
   color: ${({ theme }) => theme.colors.colorFour};
 }
 `;

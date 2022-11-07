@@ -2,21 +2,20 @@ import styled from "styled-components";
 
 export const SiteContainer = styled.div`
   z-index: 10;
-  position: absolute;
-  top: 70vh;
+  position: realtive;
   width: 90%;
   max-width: 1200px;
-  height: 500px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 4rem;
+  margin-top: 68rem;
   padding: 0;
-  overflow: hidden;
-  margin-bottom: 2rem;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   backdrop-filter: blur(10px);
   box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.2);
   border: 1px solid ${({ theme }) => theme.colors.colorTwo};
+  overflow: hidden;
 `;
 
 export const Header = styled.div`
@@ -40,7 +39,6 @@ export const Sections = styled.div`
 
 export const PersonalCont = styled.section`
   width: 100%;
-  height: 300px;
   @media (min-width: 900px) {
     width: 70%;
   }
@@ -48,7 +46,6 @@ export const PersonalCont = styled.section`
 
 export const InfoCont = styled.section`
   width: 100%;
-  height: 300px;
   background-color: ${({ theme }) => theme.colors.colorThree};
   border-radius: 10px;
   margin: 2rem 0;
@@ -60,7 +57,6 @@ export const InfoCont = styled.section`
 
 export const ContactCont = styled.section`
   width: 100%;
-  height: 300px;
   border: 1px solid ${({ theme }) => theme.colors.colorTwo};
   border-radius: 10px;
   @media (min-width: 900px) {

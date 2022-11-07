@@ -1,4 +1,5 @@
 import React from "react";
+import Info from "./components/info/Info.js";
 import Personal from "./components/personal/Personal.js";
 import RandomEmoji from "./RandomEmoji.js";
 import {
@@ -55,7 +56,9 @@ const Site = () => {
         <PersonalCont>
           <Personal />
         </PersonalCont>
-        <InfoCont />
+        <InfoCont>
+          <Info />
+        </InfoCont>
         <ContactCont />
       </Sections>
     </SiteContainer>

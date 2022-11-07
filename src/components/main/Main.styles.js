@@ -27,17 +27,19 @@ export const MainConteiner = styled.div`
 
 export const H1 = styled.h1`
   position: absolute;
-  top: 26rem;
-  line-height: 4rem;
-  letter-spacing: 0.1rem;
+  top: ${(props) => props.top};
+  line-height: 0rem;
+  letter-spacing: 0rem;
   text-shadow: 0px 0px 8px rgba(255, 162, 0, 0.6);
   text-align: center;
   font-weight: lighter;
+  font-size: 3rem;
+  width: 80%;
 `;
 
 export const AH1 = styled.a`
-  line-height: 4rem;
-  letter-spacing: 0.1rem;
+  line-height: 0rem;
+  letter-spacing: 0rem;
   text-shadow: 0px 0px 8px rgba(255, 162, 0, 0.6);
   text-align: center;
   text-decoration: none;
@@ -46,8 +48,8 @@ export const AH1 = styled.a`
   &:focus,
   &:hover,
   &:active {
-    line-height: 4rem;
-    letter-spacing: 0.1rem;
+    line-height: 3rem;
+    letter-spacing: 0rem;
     text-shadow: 0px 0px 8px rgba(255, 162, 0, 0.6);
     text-align: center;
     text-decoration: none;
