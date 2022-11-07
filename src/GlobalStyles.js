@@ -32,7 +32,7 @@ body {
 
 h1{
   font-family: ${({ theme }) => theme.fonts.logoFont}, sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   color: ${({ theme }) => theme.colors.colorFour};
 }
 `;

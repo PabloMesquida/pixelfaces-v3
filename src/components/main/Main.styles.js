@@ -35,12 +35,12 @@ export const MainAnimation = styled.main`
   );
   background: radial-gradient(
     circle at 50% 30%,
-    rgba(0, 29, 61, 1) 0%,
-    rgba(0, 18, 40, 1) 20%,
+    rgba(0, 29, 61, 0.5) 0%,
+    rgba(0, 18, 40, 0.5) 20%,
     rgba(0, 8, 20, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001d3d",endColorstr="#000814",GradientType=1);
-gi`;
+`;
 
 export const H1 = styled.h1`
   line-height: 4rem;
