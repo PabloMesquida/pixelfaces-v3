@@ -7,7 +7,7 @@ const Bio = () => {
     <PCont>
       <BioTxt>
         Web developer orientado al frontend, entusiasta del pixel art y
-        aprendiendo sobre 3D interactivo y video juegos.
+        aprendiendo sobre 3D interactivo y videojuegos.
       </BioTxt>
     </PCont>
   );

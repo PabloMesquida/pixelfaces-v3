@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "The Adventures of The Black Hawk",
-    "description": "A graphic adventure of the 90s, thirty years later. Full of humor, irony, calamities and a lot, a lot of intrigue.",
+    "description": "Aventura gráfica de los 90, treinta años después. Cargada de humor, ironía, desastres y mucha, pero que mucha intriga",
     "img": "halcon.jpg",
     "role": "Character Design",
     "tags": ["Pixel Art"],
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "name": "Argentina 8-bit",
-    "description": "Argentine culture app with retro aesthetics that uses the latest interactive technologies: AR, VR, and virtual chat with voice use.",
+    "description": "App de cultura Argentina con estética retro que utiliza las últimas tecnologías interactivas: Realidad aumentada, VR, y chat virtual con uso de voz.",
     "img": "argentina8b.jpg",
     "role": "Character Design",
     "tags": ["Pixel Art"],
@@ -38,5 +38,15 @@
     "tags": ["React.js"],
     "link": "http://thepixelfaces.com/alexzambrano",
     "category": 3
+  },
+  {
+    "id": 5,
+    "name": "Zodiacolor",
+    "description": "Ingresa tus signos y obtén un color",
+    "img": "alex.jpg",
+    "role": "Design & development",
+    "tags": ["React.js"],
+    "link": "https://zodiacolor.vercel.app",
+    "category": 4
   }
 ]

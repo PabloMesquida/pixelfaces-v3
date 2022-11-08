@@ -1,8 +1,8 @@
 const Theme = {
   colors: {
-    colorOne: "#000814", //back
-    colorTwo: "#001D3D", //border
-    colorThree: "#000f1e",
+    colorOne: "#000814",
+    colorTwo: "#001D3D",
+    colorThree: "#001020",
     colorFour: "#FF6600",
     colorFive: "#FFC300",
     colorSix: "#076ED1",

@@ -7,6 +7,7 @@ const Info = () => {
   let data1 = data.filter((data) => data.category === 1);
   let data2 = data.filter((data) => data.category === 2);
   let data3 = data.filter((data) => data.category === 3);
+  let data4 = data.filter((data) => data.category === 4);
   return (
     <>
       <SubSection>
@@ -15,9 +16,15 @@ const Info = () => {
       </SubSection>
       <SubSection>
         <Title>Pixel Art</Title>
+        <Cards data={data2} />
       </SubSection>
       <SubSection>
         <Title>Web Design</Title>
+        <Cards data={data3} />
+      </SubSection>
+      <SubSection>
+        <Title>Ejercicios</Title>
+        <Cards data={data4} />
       </SubSection>
     </>
   );

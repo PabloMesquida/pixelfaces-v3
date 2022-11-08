@@ -13,10 +13,3 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
 `;
-
-export const SiteContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-`;

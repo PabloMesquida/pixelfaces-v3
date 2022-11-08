@@ -7,7 +7,7 @@ const Location = () => {
   return (
     <PCont>
       <LocationTxt>
-        <IconLocation w={18} h={18} />
+        <IconLocation w={16} h={16} />
         Madrid
       </LocationTxt>
     </PCont>

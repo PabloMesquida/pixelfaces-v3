@@ -1,8 +1,10 @@
 import React from "react";
+import Contact from "./components/contact/Contact.js";
 import Info from "./components/info/Info.js";
 import Personal from "./components/personal/Personal.js";
 import RandomEmoji from "./RandomEmoji.js";
 import {
+  SiteMargins,
   SiteContainer,
   Header,
   Sections,
@@ -48,20 +50,24 @@ const Site = () => {
   };
 
   return (
-    <SiteContainer>
-      <Header>
-        <RandomEmoji arrayE={shuffleArray(arrayEmojis)} />
-      </Header>
-      <Sections>
-        <PersonalCont>
-          <Personal />
-        </PersonalCont>
-        <InfoCont>
-          <Info />
-        </InfoCont>
-        <ContactCont />
-      </Sections>
-    </SiteContainer>
+    <SiteMargins>
+      <SiteContainer>
+        <Header>
+          <RandomEmoji arrayE={shuffleArray(arrayEmojis)} />
+        </Header>
+        <Sections>
+          <PersonalCont>
+            <Personal />
+          </PersonalCont>
+          <InfoCont>
+            <Info />
+          </InfoCont>
+          <ContactCont>
+            <Contact />
+          </ContactCont>
+        </Sections>
+      </SiteContainer>
+    </SiteMargins>
   );
 };
 

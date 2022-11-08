@@ -1,14 +1,19 @@
 import styled from "styled-components";
 
-export const SiteContainer = styled.div`
+export const SiteMargins = styled.div`
   z-index: 10;
-  position: realtive;
-  width: 90%;
+  position: absolute;
+  top: 70vh;
+  display: flex;
+  justify-content: center;
+`;
+
+export const SiteContainer = styled.div`
+  width: 95%;
   max-width: 1200px;
   display: flex;
   flex-direction: column;
   margin-bottom: 4rem;
-  margin-top: 68rem;
   padding: 0;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 20px;
@@ -31,14 +36,15 @@ export const Sections = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 2rem;
+  padding-top: 1.5rem;
   @media (min-width: 900px) {
+    padding: 2rem 0;
     flex-direction: row;
   }
 `;
 
 export const PersonalCont = styled.section`
-  width: 100%;
+  margin: 0 2rem;
   @media (min-width: 900px) {
     width: 70%;
   }
@@ -49,19 +55,18 @@ export const InfoCont = styled.section`
   background-color: ${({ theme }) => theme.colors.colorThree};
   border-radius: 10px;
   margin: 2rem 0;
-  padding: 2rem;
+  padding: 1rem;
   @media (min-width: 900px) {
     width: 100%;
     margin: 0 2rem;
+    padding: 2rem;
   }
 `;
 
 export const ContactCont = styled.section`
   width: 100%;
-  border: 1px solid ${({ theme }) => theme.colors.colorTwo};
-  border-radius: 10px;
-
   @media (min-width: 900px) {
     width: 70%;
+    margin-right: 2rem;
   }
 `;

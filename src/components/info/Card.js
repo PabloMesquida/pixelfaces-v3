@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  CardContainer,
   CardTitle,
   CardDescription,
   CardTags,
@@ -17,9 +18,9 @@ const Card = ({ data }) => {
       case "React.js":
         return "#FFC300";
       case "Three.js":
-        return "#FFC300";
+        return "#dc2f02";
       case "Pixel Art":
-        return "#FFC300";
+        return "#008000";
       default:
         return "#000";
     }
@@ -35,12 +36,16 @@ const Card = ({ data }) => {
     );
   }
   return (
-    <div>
-      <CardTitle>{data.name}</CardTitle>
+    <CardContainer>
+      <CardTitle>
+        <a href={data.link} target="_blank" rel="noreferrer">
+          {data.name}
+        </a>
+      </CardTitle>
       <CardDescription>{data.description}</CardDescription>
       <CardRole>{data.role}.</CardRole>
       <CardTags>{tags}</CardTags>
-    </div>
+    </CardContainer>
   );
 };
 
