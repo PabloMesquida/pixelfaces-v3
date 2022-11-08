@@ -1,4 +1,3 @@
-import React from "react";
 import { Canvas } from "@react-three/fiber";
 import { DeviceOrientationControls, Stars } from "@react-three/drei";
 import { EffectComposer, Pixelation } from "@react-three/postprocessing";

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import { Stars } from "@react-three/drei";
 import Earth from "./Earth.js";
