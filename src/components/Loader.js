@@ -1,7 +1,13 @@
 import React from "react";
+import { LoaderCont, LoaderAnim, LoaderTxt } from "./Loader.styles.js";
 
 const Loader = () => {
-  return <div>Loader</div>;
+  return (
+    <LoaderCont>
+      <LoaderAnim />
+      <LoaderTxt>Cargando...</LoaderTxt>
+    </LoaderCont>
+  );
 };
 
 export default Loader;

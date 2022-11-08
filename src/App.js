@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import React, { Suspense } from "react";
 import { GlobalStyle } from "./GlobalStyles.js";
 import { ThemeProvider } from "styled-components";
 import { Theme } from "./Theme.js";
