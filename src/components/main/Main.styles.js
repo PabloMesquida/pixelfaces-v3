@@ -27,14 +27,17 @@ export const MainConteiner = styled.div`
 
 export const H1 = styled.h1`
   position: absolute;
-  top: ${(props) => props.top};
+  top: 50vh;
   line-height: 0rem;
   letter-spacing: 0rem;
   text-shadow: 0px 0px 8px rgba(255, 162, 0, 0.6);
   text-align: center;
   font-weight: lighter;
-  font-size: 3rem;
+  font-size: 2rem;
   width: 80%;
+  @media (min-width: 900px) {
+    font-size: 3rem;
+  }
 `;
 
 export const AH1 = styled.a`
