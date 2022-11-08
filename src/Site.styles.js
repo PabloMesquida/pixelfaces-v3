@@ -17,7 +17,6 @@ export const SiteContainer = styled.div`
   padding: 0;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 20px;
-  backdrop-filter: blur(10px);
   box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.2);
   border: 1px solid ${({ theme }) => theme.colors.colorTwo};
   overflow: hidden;
