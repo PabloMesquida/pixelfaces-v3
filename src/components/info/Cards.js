@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "./Card.js";
 import { CardsContainer } from "./Cards.styles.js";
 

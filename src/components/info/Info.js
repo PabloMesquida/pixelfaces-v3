@@ -1,4 +1,3 @@
-import React from "react";
 import { SubSection, Title } from "./Info.styles.js";
 import Cards from "./Cards.js";
 import data from "../../data/data.json";

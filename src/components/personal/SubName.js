@@ -1,4 +1,3 @@
-import React from "react";
 import { PCont } from "./Personal.styles.js";
 import { SubNameTxt } from "./SubName.styles.js";
 

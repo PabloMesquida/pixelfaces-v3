@@ -1,4 +1,3 @@
-import React from "react";
 import Contact from "./components/contact/Contact.js";
 import Info from "./components/info/Info.js";
 import Personal from "./components/personal/Personal.js";

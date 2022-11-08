@@ -1,4 +1,3 @@
-import React from "react";
 import IconStar from "../icons/IconStar.js";
 import { GuideContainer, Guide } from "./Guides.styles.js";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import { NameTxt } from "./Name.styles.js";
 import { PCont } from "./Personal.styles.js";
 

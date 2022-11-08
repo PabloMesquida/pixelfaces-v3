@@ -1,4 +1,3 @@
-import React from "react";
 import { LogosContainer } from "./Social.styles.js";
 
 import linkedin from "../../static/rrss/linkedin.svg";

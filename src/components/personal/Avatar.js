@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AvatarCont, AvatarImg } from "./Avatar.styles.js";
 
 const data = ["01", "02", "03", "04"];

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { EmojiContainer } from "./RandomEmoji.styles.js";
 
 export default function RandomEmoji({ arrayE }) {
