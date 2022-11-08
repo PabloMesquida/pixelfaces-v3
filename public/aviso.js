@@ -20,4 +20,5 @@ botonAceptarCookies.addEventListener("click", () => {
 botonCancelarCookies.addEventListener("click", () => {
   avisoCookies.classList.remove("activo");
   fondoAvisoCookies.classList.remove("activo");
+  localStorage.setItem("cookies-aceptadas", false);
 });
