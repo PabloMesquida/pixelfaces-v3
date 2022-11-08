@@ -45,7 +45,7 @@
     "description": "Ingresa tus signos y obtén un color",
     "img": "alex.jpg",
     "role": "Design & development",
-    "tags": ["React.js"],
+    "tags": ["React.js", "Three.js"],
     "link": "https://zodiacolor.vercel.app",
     "category": 4
   }
