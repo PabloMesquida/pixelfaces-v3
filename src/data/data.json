@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Beatpoints",
+    "description": "Spotify player donde un grupo de puntos reaccionan al ritmo de las canciones en un entorno 3d.",
+    "img": "beatpoints.png",
+    "role": "Diseño & desarrollo",
+    "tags": ["React.js", "Three.js"],
+    "link": "https://beatpoints.herokuapp.com/",
+    "category": 1
+  },
+  {
+    "id": 2,
+    "name": "The Adventures of The Black Hawk",
+    "description": "A graphic adventure of the 90s, thirty years later. Full of humor, irony, calamities and a lot, a lot of intrigue.",
+    "img": "halcon.jpg",
+    "role": "Character Design",
+    "tags": ["Pixel Art"],
+    "link": "https://www.elhalconnegro.com/engindex.html",
+    "category": 2
+  },
+  {
+    "id": 3,
+    "name": "Argentina 8-bit",
+    "description": "Argentine culture app with retro aesthetics that uses the latest interactive technologies: AR, VR, and virtual chat with voice use.",
+    "img": "argentina8b.jpg",
+    "role": "Character Design",
+    "tags": ["Pixel Art"],
+    "link": "https://argentina8bit.com/",
+    "category": 2
+  },
+  {
+    "id": 4,
+    "name": "Alex Zambrano Puente",
+    "description": "Single Page Aplication",
+    "img": "alex.jpg",
+    "role": "Design & development",
+    "tags": ["React.js"],
+    "link": "http://thepixelfaces.com/alexzambrano",
+    "category": 3
+  }
+]

@@ -49,6 +49,7 @@ export const InfoCont = styled.section`
   background-color: ${({ theme }) => theme.colors.colorThree};
   border-radius: 10px;
   margin: 2rem 0;
+  padding: 2rem;
   @media (min-width: 900px) {
     width: 100%;
     margin: 0 2rem;
@@ -59,6 +60,7 @@ export const ContactCont = styled.section`
   width: 100%;
   border: 1px solid ${({ theme }) => theme.colors.colorTwo};
   border-radius: 10px;
+
   @media (min-width: 900px) {
     width: 70%;
   }
