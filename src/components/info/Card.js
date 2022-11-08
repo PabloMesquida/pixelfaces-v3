@@ -13,7 +13,6 @@ const Card = ({ data }) => {
   let tags = [];
 
   function SetColor(type) {
-    console.log("ok");
     switch (type) {
       case "React.js":
         return "#FFC300";
@@ -30,7 +29,6 @@ const Card = ({ data }) => {
     tags.push(
       <CardTag key={i}>
         <Item color={SetColor(data.tags[i])} />
-        {console.log(SetColor(data.tags[i]))}
         {data.tags[i]}
       </CardTag>
     );

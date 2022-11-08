@@ -4,9 +4,9 @@ import { ThemeProvider } from "styled-components";
 import { Theme } from "./Theme.js";
 import { Container } from "./App.styles.js";
 import Loader from "./components/Loader.js";
+import Site from "./Site.js";
 
 const Main = React.lazy(() => import("./components/main/Main.js"));
-const Site = React.lazy(() => import("./Site.js"));
 
 function App() {
   return (
@@ -15,8 +15,8 @@ function App() {
       <Container>
         <Suspense fallback={<Loader />}>
           <Main />
-          <Site />
         </Suspense>
+        <Site />
       </Container>
     </ThemeProvider>
   );
