@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { animated } from "react-spring";
 
 export const AvatarCont = styled.article`
   position: relative;
@@ -12,29 +13,51 @@ export const AvatarCont = styled.article`
   }
 `;
 
-export const AvatarImg = styled.img`
+export const AvatarImg = styled(animated.img)`
+  z-index: 20;
   position: relative;
-  top: -50px;
-  width: 80%;
+  top: 0px;
+  width: 100%;
+
   max-width: 380px;
   border-radius: 380px;
-  border: 1px solid ${({ theme }) => theme.colors.colorTwo};
+  @media (min-width: 900px) {
+    top: 0px;
+  }
+`;
+
+export const AvatarImgCont = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  position: relative;
+  top: -50px;
+  width: 90%;
+  padding: 0.5rem;
+  max-width: 380px;
+
+  height: calc(100% - 2%);
+  border-radius: 380px;
+  border: 4px solid ${({ theme }) => theme.colors.colorTwo};
+  background-color: ${({ theme }) => theme.colors.colorOne};
   @media (min-width: 900px) {
     top: 0px;
   }
 `;
 
 export const AvatarBtn = styled.div`
+  z-index: 30;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   bottom: 48px;
-  right: calc(50% - 80px);
-  width: 50px;
-  min-width: 50px;
-  height: 50px;
-  min-height: 50px;
+  right: calc(40% - 40px);
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  min-height: 40px;
   border-radius: 380px;
   padding-left: 7px;
   background-color: ${({ theme }) => theme.colors.colorThree};
@@ -42,7 +65,13 @@ export const AvatarBtn = styled.div`
   @media (min-width: 900px) {
     right: 15%;
     bottom: 0px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+  }
+
+  &:hover {
+    background-color: ${({ theme }) => theme.colors.colorTwo};
+    border: 2px solid ${({ theme }) => theme.colors.colorSix};
+    cursor: pointer;
   }
 `;
