@@ -1,3 +1,48 @@
+body {
+  background-color: #000814;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+.aviso-titulo {
+  font-size: 2rem;
+  font-family: "Silkscreen", sans-serif;
+  color: #ff6600;
+}
+a:link {
+  text-decoration: none;
+  color: #ff6600;
+}
+
+.aviso-titulo-h2 {
+  font-size: 1.2rem;
+  font-family: "Roboto Flex", sans-serif;
+  color: #fff;
+}
+
+.aviso-titulo-h3 {
+  font-size: 1rem;
+  font-family: "Roboto Flex", sans-serif;
+  color: #fff;
+}
+
+.contenedor {
+  width: 95%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+  padding: 4rem 10rem 4rem 10rem;
+  margin: 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid #001d3d;
+}
+
 .cont-aviso {
   display: none;
   justify-content: center;

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const BioTxt = styled.div`
   width: 100%;
   margin-top: 2rem;
+  margin-right: 2rem;
   padding-top: 0;
   font-size: 1rem;
   @media (min-width: 900px) {

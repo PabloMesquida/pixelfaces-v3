@@ -2,6 +2,7 @@ import Contact from "./components/contact/Contact.js";
 import Info from "./components/info/Info.js";
 import Personal from "./components/personal/Personal.js";
 import RandomEmoji from "./RandomEmoji.js";
+import { useMediaQuery } from "./hooks/useMediaQuery.js";
 import {
   SiteMargins,
   SiteContainer,
@@ -13,6 +14,8 @@ import {
 } from "./Site.styles.js";
 
 const Site = () => {
+  const isDesktop = useMediaQuery("(min-width: 900px)");
+
   const arrayEmojis = [
     "🙂",
     "​🧡",
@@ -57,13 +60,17 @@ const Site = () => {
         <Sections>
           <PersonalCont>
             <Personal />
+            {isDesktop && <Contact />}
           </PersonalCont>
+
           <InfoCont>
             <Info />
           </InfoCont>
-          <ContactCont>
-            <Contact />
-          </ContactCont>
+          {!isDesktop && (
+            <ContactCont>
+              <Contact />
+            </ContactCont>
+          )}
         </Sections>
       </SiteContainer>
     </SiteMargins>

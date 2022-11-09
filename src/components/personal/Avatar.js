@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { AvatarCont, AvatarImg } from "./Avatar.styles.js";
+import IconRefresh from "../icons/IconRefresh.js";
+import { AvatarCont, AvatarImg, AvatarBtn } from "./Avatar.styles.js";
 
 const data = ["01", "02", "03", "04"];
 
@@ -10,6 +11,9 @@ const Avatar = () => {
   return (
     <AvatarCont>
       <AvatarImg src={imgURL} alt="pablo" />
+      <AvatarBtn>
+        <IconRefresh w={20} h={20} />
+      </AvatarBtn>
     </AvatarCont>
   );
 };

@@ -7,7 +7,7 @@ export const ContactCard = styled.section`
   border: 1px solid ${({ theme }) => theme.colors.colorTwo};
   border-radius: 10px;
   @media (min-width: 900px) {
-    margin: 0;
+    margin: 2rem 0;
   }
 `;
 
@@ -18,8 +18,18 @@ export const Title = styled.div`
 
 export const Cookies = styled.div`
   padding-top: 2rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: lighter;
   color: ${({ theme }) => theme.colors.colorSix};
   border-top: 1px solid ${({ theme }) => theme.colors.colorTwo};
+
+  a {
+    text-decoration: none;
+    color: ${({ theme }) => theme.colors.colorTwo};
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: ${({ theme }) => theme.colors.colorTwo};
+  }
 `;

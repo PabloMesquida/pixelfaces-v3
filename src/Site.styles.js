@@ -43,9 +43,10 @@ export const Sections = styled.div`
 `;
 
 export const PersonalCont = styled.section`
-  margin: 0 2rem;
+  margin: 0 0 0 2rem;
   @media (min-width: 900px) {
-    width: 70%;
+    width: 40%;
+    min-width: 300px;
   }
 `;
 
@@ -65,7 +66,6 @@ export const InfoCont = styled.section`
 export const ContactCont = styled.section`
   width: 100%;
   @media (min-width: 900px) {
-    width: 70%;
-    margin-right: 2rem;
+    width: 100%;
   }
 `;
