@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useSpring } from "react-spring";
+import { useSpring, config } from "react-spring";
 import IconRefresh from "../icons/IconRefresh.js";
 import {
   AvatarCont,
@@ -19,7 +19,7 @@ const Avatar = () => {
       reset: true,
       from: { opacity: 0 },
       to: { opacity: 1 },
-      config: { duration: 1000 },
+      config: config.slow,
     }),
     [avatar]
   );
