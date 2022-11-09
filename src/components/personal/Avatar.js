@@ -15,14 +15,18 @@ import avatar04 from "../../static/avatars/04.png";
 
 const data = [avatar01, avatar02, avatar03, avatar04];
 
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
 const Avatar = () => {
-  const [avatar, setAvatar] = useState(0);
+  const [avatar, setAvatar] = useState(getRandomInt(4));
   let imgURL = data[avatar];
 
   const [{ opacity, scale }] = useSpring(
     () => ({
       reset: true,
-      from: { opacity: 0, scale: 0 },
+      from: { opacity: 0, scale: 0.9 },
       to: { opacity: 1, scale: 1 },
       config: config.gentle,
     }),

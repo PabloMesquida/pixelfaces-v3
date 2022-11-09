@@ -19,10 +19,11 @@ export const AvatarImg = styled(animated.img)`
   top: 0px;
   width: 100%;
 
-  max-width: 380px;
+  max-width: 180px;
   border-radius: 380px;
   @media (min-width: 900px) {
     top: 0px;
+    max-width: 380px;
   }
 `;
 
@@ -35,13 +36,14 @@ export const AvatarImgCont = styled.div`
   top: -50px;
   width: 90%;
   padding: 0.5rem;
-  max-width: 380px;
+  max-width: 180px;
   overflow: hidden;
   height: calc(100% - 2%);
   border-radius: 380px;
   border: 4px solid ${({ theme }) => theme.colors.colorTwo};
   background-color: ${({ theme }) => theme.colors.colorOne};
   @media (min-width: 900px) {
+    max-width: 380px;
     top: 0px;
   }
 `;
