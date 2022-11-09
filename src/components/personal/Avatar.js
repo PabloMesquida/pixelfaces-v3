@@ -14,12 +14,12 @@ const Avatar = () => {
   const [avatar, setAvatar] = useState(0);
   let imgURL = `assets/avatars/${data[avatar]}`;
 
-  const [{ opacity }] = useSpring(
+  const [{ opacity, scale }] = useSpring(
     () => ({
       reset: true,
-      from: { opacity: 0 },
-      to: { opacity: 1 },
-      config: config.slow,
+      from: { opacity: 0, scale: 0 },
+      to: { opacity: 1, scale: 1 },
+      config: config.gentle,
     }),
     [avatar]
   );
@@ -27,7 +27,12 @@ const Avatar = () => {
   return (
     <AvatarCont>
       <AvatarImgCont>
-        <AvatarImg src={imgURL} alt="pablo" style={{ opacity }} id="avatar" />
+        <AvatarImg
+          src={imgURL}
+          alt="pablo"
+          style={{ opacity, scale }}
+          id="avatar"
+        />
       </AvatarImgCont>
       <AvatarBtn onClick={() => setAvatar(avatar === 3 ? 0 : avatar + 1)}>
         <IconRefresh w={20} h={20} />

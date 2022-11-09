@@ -36,7 +36,7 @@ export const AvatarImgCont = styled.div`
   width: 90%;
   padding: 0.5rem;
   max-width: 380px;
-
+  overflow: hidden;
   height: calc(100% - 2%);
   border-radius: 380px;
   border: 4px solid ${({ theme }) => theme.colors.colorTwo};
