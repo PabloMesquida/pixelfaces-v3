@@ -8,11 +8,11 @@ import {
   AvatarImgCont,
 } from "./Avatar.styles.js";
 
-const data = ["01", "02", "03", "04"];
+const data = ["01.jpg", "02.png", "03.png", "04.png"];
 
 const Avatar = () => {
   const [avatar, setAvatar] = useState(0);
-  let imgURL = `assets/avatars/${data[avatar]}.jpg`;
+  let imgURL = `assets/avatars/${data[avatar]}`;
 
   const [{ opacity }] = useSpring(
     () => ({
