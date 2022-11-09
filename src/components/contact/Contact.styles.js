@@ -25,11 +25,11 @@ export const Cookies = styled.div`
 
   a {
     text-decoration: none;
-    color: ${({ theme }) => theme.colors.colorTwo};
+    color: ${({ theme }) => theme.colors.colorSix};
   }
 
   a:hover {
     text-decoration: underline;
-    color: ${({ theme }) => theme.colors.colorTwo};
+    color: ${({ theme }) => theme.colors.colorSix};
   }
 `;

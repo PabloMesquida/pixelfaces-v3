@@ -9,7 +9,9 @@ const Contact = () => {
       <Social />
       <Title>Guías</Title>
       <Guides />
-      <Cookies>Política de Cookies</Cookies>
+      <Cookies>
+        <a href="aviso-cookies.html">Política de Cookies</a>
+      </Cookies>
     </ContactCard>
   );
 };

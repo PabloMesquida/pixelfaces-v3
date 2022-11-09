@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "The Adventures of The Black Hawk",
-    "description": "Aventura gráfica de los 90, treinta años después. Cargada de humor, ironía, desastres y mucha, pero que mucha intriga",
+    "description": "Aventura gráfica de los 90, treinta años después. Cargada de humor, ironía, desastres y mucha, pero que mucha intriga.",
     "img": "halcon.jpg",
     "role": "Character Design",
     "tags": ["Pixel Art"],
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "name": "Alex Zambrano Puente",
-    "description": "Single Page Aplication",
+    "description": "Single Page Aplication.",
     "img": "alex.jpg",
     "role": "Design & development",
     "tags": ["React.js"],
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "name": "Zodiacolor",
-    "description": "Ingresa tus signos y obtén un color",
+    "description": "Ingresa tus signos y obtén un color.",
     "img": "alex.jpg",
     "role": "Design & development",
     "tags": ["React.js", "Three.js"],
