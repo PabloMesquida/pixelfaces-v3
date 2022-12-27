@@ -4,10 +4,7 @@ import { BioTxt } from "./Bio.styles.js";
 const Bio = () => {
   return (
     <PCont>
-      <BioTxt>
-        Web developer orientado al frontend, entusiasta del pixel art y
-        aprendiendo sobre 3D interactivo y videojuegos.
-      </BioTxt>
+      <BioTxt>FrontEnd develper & Pixel Artist.</BioTxt>
     </PCont>
   );
 };
