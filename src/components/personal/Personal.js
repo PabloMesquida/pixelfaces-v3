@@ -11,7 +11,7 @@ const Personal = () => {
       <Avatar />
       <Name />
       <SubName />
-      <Bio />
+      {/* <Bio /> */}
       <Location />
       <Email />
     </>
