@@ -6,7 +6,7 @@
     "img": "beatpoints.png",
     "role": "Diseño & desarrollo",
     "tags": ["React.js", "Three.js"],
-    "link": "https://beatpoints.herokuapp.com/",
+    "link": "https://beatpoints.vercel.app/",
     "category": 1
   },
   {
